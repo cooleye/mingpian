@@ -5,7 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    background: ['积云教育', '积云教育', '积云教育'],
     indicatorDots: true,
     vertical: false,
     autoplay: false,

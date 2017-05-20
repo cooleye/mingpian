@@ -37,6 +37,18 @@ Page({
     })
     
   },
+  onShareAppMessage: function () {
+    return {
+      title: 'Davie 爱学习',
+      path: '/pages/about/index?id=123',
+      success: function (res) {
+        // 转发成功
+      },
+      fail: function (res) {
+        // 转发失败
+      }
+    }
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
