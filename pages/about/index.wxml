@@ -1,0 +1,52 @@
+<view class="container">
+
+  <view class="about-page">
+      <view class="tag-tag" >
+          <view class="section-1">
+              <view class="avatar">
+                  <image src="{{userInfo.avatarUrl}}"></image>
+              </view>
+              <view class="detail">
+                <view class="name flex1">
+                    <text>{{userInfo.nickName}}</text>
+                </view>
+                <view class="comp flex1">
+                    <image src="../../res/icon/profession.png"></image>  <text> {{userProfile.job}}</text>
+                </view>
+                <view class="loca flex1">
+                    <image src="../../res/icon/local.png"></image><text> {{userProfile.location}}| {{userProfile.profession}} | </text>
+                    <image src="../../res/icon/male.png"></image>
+                </view>
+              </view>
+          </view>
+          <view class="section-2">
+             <view class="section-2-detail">
+                <view class="comp flex1">
+                    <image src="../../res/icon/email.png"></image>  <text> {{userProfile.email}}</text>
+                </view>
+               <view class="comp flex1">
+                    <image src="../../res/icon/wechat.png"></image>  <text> {{userProfile.wechat}}</text>
+                </view>
+                <view class="comp flex1">
+                    <image src="../../res/icon/mobile.png"></image>  <text> {{userProfile.mobile}}</text>
+                </view>
+                <view class="comp flex1">
+                    <image src="../../res/icon/github.png"></image>  <text> {{userProfile.profession}}</text>
+                </view>
+              </view>
+            <view class="section-3">
+                <image src="../../res/icon/logo.png"></image>
+            </view>
+          </view>
+      </view>
+
+      <view class="person-introduction">
+          <view class="person-introduction-title">
+              <text>个人简介</text>
+          </view>
+          <view  class="person-introduction-desc">
+              <text>{{userProfile.introduction}}</text>
+          </view>
+      </view>
+  </view>
+</view>

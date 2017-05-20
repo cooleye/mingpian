@@ -1,0 +1,40 @@
+<view class="container">
+
+    <view class="list-page">
+      <swiper 
+        indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" 
+        interval="{{interval}}" 
+        circular="{{circular}}"
+        duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item>
+            <view class="swiper-item" >
+                <view class="up-section"></view>
+                <view class="down-section"></view>
+                <view class="card-section">
+                   <view class="title">
+                         <text class="title">{{item}}</text>
+                   </view>
+                   <view class="works-logo">
+                      <image src="../../res/icon/logo.png"></image>
+                   </view>
+                   <view class="works-title">培养年薪20万的IT技术专家</view>
+                   <view class="works-list">
+                      <view>1.好好学习，天天向上</view>
+                      <view>2.好好学习，天天向上</view>
+                      <view>3.好好学习，天天向上</view>
+                      <view>4.好好学习，天天向上</view>
+                      <view>5.好好学习，天天向上</view>
+                      <view>6.好好学习，天天向上</view>
+                      <view>7.好好学习，天天向上</view>
+                   </view>
+                </view>
+            </view>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+
+
+</view>

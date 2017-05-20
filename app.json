@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/about/index",
+    "pages/list/index",
+    "pages/experience/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "Davie的个人信息",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor":"#1296db"
+  },
+    "tabBar": {
+      "color": "#ccc",
+      "selectedColor": "#1296db",
+      "borderStyle": "white",
+      "backgroundColor": "#fff",
+      "position": "bottom",
+      "list": [
+        {
+          "pagePath": "pages/about/index",
+          "text": "关于",
+          "iconPath": "res/icon/about0.png",
+          "selectedIconPath": "res/icon/about.png"
+        },
+        {
+          "pagePath": "pages/list/index",
+          "text": "作品",
+          "iconPath": "res/icon/list0.png",
+          "selectedIconPath": "res/icon/list.png"
+        },
+        {
+          "pagePath": "pages/experience/index",
+          "text": "过往",
+          "iconPath": "res/icon/book0.png",
+          "selectedIconPath": "res/icon/book.png"
+        }
+      ]
+    }
+}

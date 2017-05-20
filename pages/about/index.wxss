@@ -1,0 +1,122 @@
+/* pages/about/index.wxss */
+
+.about-page{
+    flex: 1;
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+.tag-tag{
+  width: 90%;
+  height: 350rpx;
+  margin: 0 auto;
+  margin-top: -200rpx;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #ccc;
+  position: relative;
+}
+
+.tag-tag .section-1{
+  display: flex;
+  height: 136rpx;
+  line-height: 136rpx;
+  flex-direction: row;
+  /*background-color: #ff0;*/
+  /*padding-top: 20rpx;
+  padding-left: 20rpx;*/
+  padding: 20rpx;
+}
+
+
+.tag-tag .section-1 .avatar{
+  width:136rpx;
+  height: 136rpx;
+  /*background-color: #f00;*/
+  /*text-align: center;*/
+  /*line-height: 136rpx;*/
+  float: left;
+}
+.avatar image{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 60rpx;
+  /*vertical-align: middle;*/
+}
+
+
+.flex1{
+  height: 45rpx;
+  line-height: 45rpx;
+  /*margin-left: 10rpx;*/
+}
+
+.flex2{
+  height: 40rpx;
+  line-height: 40rpx;
+  /*margin-left: 10rpx;*/
+}
+.flex1 image{
+  width:20rpx;
+  height: 20rpx;
+}
+.tag-tag .section-1 .detail{
+  /*background-color: #afa;*/
+  flex: 3;
+  float: right;
+}
+.detail .name{
+  /*background-color: #ccc*/
+  /*color:#888;*/
+}
+
+.detail .comp{
+  /*background-color: #f00*/
+   font-size: 24rpx;
+   color:#aaa;
+}
+
+.detail .loca{
+  /*background-color: #ff0*/
+   font-size: 24rpx;
+   color:#aaa;
+}
+
+.tag-tag .section-2{
+  height: 204rpx;
+  /*background-color: #0ff;*/
+}
+
+.section-2-detail{
+  padding-left: 20rpx;
+  color:#aaa;
+}
+
+.section-2-detail .comp{
+  line-height: 20rpx;
+  font-size: 22rpx;
+}
+
+.section-3{
+  position: absolute;
+  width:140rpx;
+  height: 140rpx;
+  /*background-color: #ccc;*/
+  right: 20rpx;
+  bottom: 0rpx;
+}
+
+.section-3 image{
+  width:100%;
+  height: 100%;
+}
+
+.person-introduction{
+  padding: 40rpx;
+}
+.person-introduction .person-introduction-desc{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  line-height: 50rpx;
+  color:#888;
+}

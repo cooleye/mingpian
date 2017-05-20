@@ -1,0 +1,73 @@
+/* pages/list/index.wxss */
+
+.list-page{
+    flex: 1;
+    background-color: #fff;
+}
+
+swiper{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  bottom: 50rpx;
+  background-color: #1296db;
+}
+
+.swiper-item{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1296db;
+}
+.up-section{
+  flex: 3;
+  width:102%;
+}
+.down-section{
+  flex: 2;
+  background-color: #fff;
+}
+
+.card-section{
+  width:75%;
+  height: 780rpx;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px #ccc;
+  position: absolute;
+  background-color: #fff;
+  left:12.5%;
+  bottom: 10%;
+  border: solid 1px #fff;
+  /*padding: 20rpx;*/
+}
+
+.card-section .title{
+    /*background-color: #0f0;*/
+    text-align: center;
+    margin-top: -40px;
+    font-size: 48rpx;
+    color: #fff;
+}
+
+.card-section .works-logo{
+  width: 200rpx;
+  height: 200rpx;
+  /*background-color: #1296db;*/
+  margin: 0 auto;
+}
+.card-section .works-logo image{
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.works-title{
+  padding-left: 30rpx;
+  font-size: 34rpx;
+  color:#aaa;
+}
+.works-list{
+  /*background-color: #1296db;*/
+  padding-left: 30rpx;
+  font-size: 30rpx;
+}
